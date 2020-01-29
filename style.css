@@ -1,0 +1,50 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing:box;
+    background: rgb(110, 117, 223);
+}
+#main{
+    align-content: center;
+    /* display:block; */
+    background: white;
+    height:100%;
+    width:64%;
+    padding:3%;
+    position: absolute;
+    /* text-align: center; */
+    margin:15em;
+}
+h1{
+    text-align: center;
+    font-family:"Sans"
+}
+p{
+    text-align: center;
+    font-family:"Sans";
+    text-decoration:underline;
+}
+
+input{
+    display: block;
+    /* text-align: center; */
+    margin-bottom: 10px;
+    width:60%;
+}
+input[type="checkboxes"]{
+    margin-bottom: 0;
+    width:30px;
+}
+input[type="radio"]{
+    margin-bottom: 0px;
+}
+button{
+    display:block;
+    /* align-items: center; */
+    /* margin:30% 30 0 30; */
+}
+textarea{
+    display:block;
+    margin-left:20px;
+
+}
